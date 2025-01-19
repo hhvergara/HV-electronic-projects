@@ -3966,7 +3966,7 @@
 				)
 			)
 		)
-		(property "Value" "OUTPUT"
+		(property "Value" "L_IN"
 			(at 57.404 79.756 0)
 			(effects
 				(font
@@ -6073,7 +6073,7 @@
 				)
 			)
 		)
-		(property "Value" "OUTPUT"
+		(property "Value" "R_IN"
 			(at 57.404 141.986 0)
 			(effects
 				(font
@@ -6695,28 +6695,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "57f26414-e2d7-4b66-ab55-a2156db7808d")
+			(uuid "57f26414-e2d7-4b66-ab55-a2156db7808e")
 		)
 		(pin "1"
-			(uuid "1c1c0564-5cc8-4e14-9941-2e3315afe968")
+			(uuid "1c1c0564-5cc8-4e14-9941-2e3315afe969")
 		)
 		(pin "6"
-			(uuid "d88f9e42-d8ae-4804-8967-586353f47ce8")
+			(uuid "d88f9e42-d8ae-4804-8967-586353f47ce9")
 		)
 		(pin "4"
-			(uuid "a415ae7b-e054-4dda-baa3-732567505cb2")
+			(uuid "a415ae7b-e054-4dda-baa3-732567505cb3")
 		)
 		(pin "8"
-			(uuid "29d34120-2be6-4e55-ba33-a44d037a1168")
+			(uuid "29d34120-2be6-4e55-ba33-a44d037a1169")
 		)
 		(pin "7"
-			(uuid "a17be193-390e-4331-9da1-535a6f843289")
+			(uuid "a17be193-390e-4331-9da1-535a6f84328a")
 		)
 		(pin "3"
-			(uuid "95097036-4f32-4821-83ce-6ecb660f86aa")
+			(uuid "95097036-4f32-4821-83ce-6ecb660f86ab")
 		)
 		(pin "2"
-			(uuid "388bc567-0116-4dd6-acd4-fe9826172259")
+			(uuid "388bc567-0116-4dd6-acd4-fe982617225a")
 		)
 		(instances
 			(project ""
@@ -6847,28 +6847,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "57f26414-e2d7-4b66-ab55-a2156db7808d")
+			(uuid "57f26414-e2d7-4b66-ab55-a2156db7808f")
 		)
 		(pin "1"
-			(uuid "1c1c0564-5cc8-4e14-9941-2e3315afe968")
+			(uuid "1c1c0564-5cc8-4e14-9941-2e3315afe96a")
 		)
 		(pin "6"
-			(uuid "d88f9e42-d8ae-4804-8967-586353f47ce8")
+			(uuid "d88f9e42-d8ae-4804-8967-586353f47cea")
 		)
 		(pin "4"
-			(uuid "a415ae7b-e054-4dda-baa3-732567505cb2")
+			(uuid "a415ae7b-e054-4dda-baa3-732567505cb4")
 		)
 		(pin "8"
-			(uuid "29d34120-2be6-4e55-ba33-a44d037a1168")
+			(uuid "29d34120-2be6-4e55-ba33-a44d037a116a")
 		)
 		(pin "7"
-			(uuid "a17be193-390e-4331-9da1-535a6f843289")
+			(uuid "a17be193-390e-4331-9da1-535a6f84328b")
 		)
 		(pin "3"
-			(uuid "95097036-4f32-4821-83ce-6ecb660f86aa")
+			(uuid "95097036-4f32-4821-83ce-6ecb660f86ac")
 		)
 		(pin "2"
-			(uuid "388bc567-0116-4dd6-acd4-fe9826172259")
+			(uuid "388bc567-0116-4dd6-acd4-fe982617225b")
 		)
 		(instances
 			(project ""
@@ -7038,7 +7038,7 @@
 				)
 			)
 		)
-		(property "Value" "OUTPUT"
+		(property "Value" "L_OUT"
 			(at 221.996 81.026 0)
 			(effects
 				(font
@@ -8109,7 +8109,7 @@
 				)
 			)
 		)
-		(property "Value" "OUTPUT"
+		(property "Value" "R_OUT"
 			(at 221.996 140.716 0)
 			(effects
 				(font
