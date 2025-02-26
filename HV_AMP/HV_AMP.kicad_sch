@@ -3737,6 +3737,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 22.86) (xy 43.18 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092144b9-1678-400b-8792-2dacb03fe004")
+	)
+	(wire
+		(pts
 			(xy 39.37 41.91) (xy 58.42 41.91)
 		)
 		(stroke
@@ -4154,6 +4164,16 @@
 			(type default)
 		)
 		(uuid "4587356f-e262-479f-ab70-e93c13ccd65f")
+	)
+	(wire
+		(pts
+			(xy 43.18 22.86) (xy 43.18 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4808f3b3-fabd-47f0-9cf4-a33eb96a4209")
 	)
 	(wire
 		(pts
@@ -5809,6 +5829,28 @@
 			)
 		)
 	)
+	(global_label "AC_GND"
+		(shape input)
+		(at 39.37 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a925e6ad-c56b-4822-a22f-6a5744dc2d8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.1881 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "L_OUT"
 		(shape input)
 		(at 36.83 101.6 180)
@@ -6038,7 +6080,7 @@
 		(dnp no)
 		(uuid "076c7f8f-12a0-4563-9285-1b315163dfc1")
 		(property "Reference" "U3"
-			(at 170.18 105.41 0)
+			(at 168.656 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,22 +6129,22 @@
 			(uuid "e6f22b99-e320-43d3-b988-7aa6d61bcce2")
 		)
 		(pin "7"
-			(uuid "f95b08a4-b65a-458b-8d68-24c59621037e")
+			(uuid "f95b08a4-b65a-458b-8d68-24c59621037f")
 		)
 		(pin "4"
-			(uuid "54be9992-dc56-4b19-8e9f-ccb0d4ac76a1")
+			(uuid "54be9992-dc56-4b19-8e9f-ccb0d4ac76a2")
 		)
 		(pin "5"
-			(uuid "25aeb92b-eb29-4b39-8dd2-6b4cad2e265a")
+			(uuid "25aeb92b-eb29-4b39-8dd2-6b4cad2e265b")
 		)
 		(pin "1"
 			(uuid "73073353-1eab-4c95-8c21-aaf3cc553083")
 		)
 		(pin "8"
-			(uuid "381a15e9-1151-4c16-8765-12937c0fb6f3")
+			(uuid "381a15e9-1151-4c16-8765-12937c0fb6f4")
 		)
 		(pin "6"
-			(uuid "7abc3ae4-81b6-47a9-a895-24467e57f28c")
+			(uuid "7abc3ae4-81b6-47a9-a895-24467e57f28d")
 		)
 		(instances
 			(project "HV_amp_circuits"
@@ -6184,14 +6226,14 @@
 		(lib_id "Amplifier_Operational:TL072")
 		(at 170.18 119.38 0)
 		(mirror x)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "09f9d07f-a400-43af-9e26-cb817426f11d")
-		(property "Reference" "U4"
-			(at 170.18 129.54 0)
+		(property "Reference" "U3"
+			(at 168.91 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,7 +6241,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 170.18 127 0)
+			(at 170.434 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,28 +6282,28 @@
 			(uuid "72ecb162-edf3-401e-b045-0946e8a97d7f")
 		)
 		(pin "7"
-			(uuid "f95b08a4-b65a-458b-8d68-24c59621037e")
+			(uuid "f95b08a4-b65a-458b-8d68-24c596210380")
 		)
 		(pin "4"
-			(uuid "54be9992-dc56-4b19-8e9f-ccb0d4ac76a1")
+			(uuid "54be9992-dc56-4b19-8e9f-ccb0d4ac76a3")
 		)
 		(pin "5"
-			(uuid "25aeb92b-eb29-4b39-8dd2-6b4cad2e265a")
+			(uuid "25aeb92b-eb29-4b39-8dd2-6b4cad2e265c")
 		)
 		(pin "1"
 			(uuid "c7317e6a-312b-498c-987a-768c4dd65943")
 		)
 		(pin "8"
-			(uuid "381a15e9-1151-4c16-8765-12937c0fb6f3")
+			(uuid "381a15e9-1151-4c16-8765-12937c0fb6f5")
 		)
 		(pin "6"
-			(uuid "7abc3ae4-81b6-47a9-a895-24467e57f28c")
+			(uuid "7abc3ae4-81b6-47a9-a895-24467e57f28e")
 		)
 		(instances
 			(project "HV_amp_circuits"
 				(path "/6567d1e3-e9e0-430a-8803-85c2ad7fe865"
-					(reference "U4")
-					(unit 1)
+					(reference "U3")
+					(unit 2)
 				)
 			)
 		)
@@ -8196,6 +8238,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 43.18 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c2f00f6-623c-45de-b062-91d29596d208")
+		(property "Reference" "#PWR019"
+			(at 43.18 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb0ff64a-12d4-41b3-8c57-04f2ef1410b3")
+		)
+		(instances
+			(project "HV_AMP"
+				(path "/6567d1e3-e9e0-430a-8803-85c2ad7fe865"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 181.61 114.3 0)
 		(unit 1)
@@ -10090,7 +10198,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "220R"
 			(at 250.19 111.7599 0)
 			(effects
 				(font
@@ -10265,28 +10373,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "96f78a0e-f6f3-45d3-b9b0-43f8227ca094")
+			(uuid "96f78a0e-f6f3-45d3-b9b0-43f8227ca095")
 		)
 		(pin "3"
-			(uuid "5e0fd3d3-da3c-4dc2-b3b1-ba5f3516c4b0")
+			(uuid "5e0fd3d3-da3c-4dc2-b3b1-ba5f3516c4b1")
 		)
 		(pin "7"
-			(uuid "f95b08a4-b65a-458b-8d68-24c59621037e")
+			(uuid "f95b08a4-b65a-458b-8d68-24c596210381")
 		)
 		(pin "4"
-			(uuid "54be9992-dc56-4b19-8e9f-ccb0d4ac76a1")
+			(uuid "54be9992-dc56-4b19-8e9f-ccb0d4ac76a4")
 		)
 		(pin "5"
-			(uuid "25aeb92b-eb29-4b39-8dd2-6b4cad2e265a")
+			(uuid "25aeb92b-eb29-4b39-8dd2-6b4cad2e265d")
 		)
 		(pin "1"
-			(uuid "6bf651f3-b2ba-46e5-9113-90623789244c")
+			(uuid "6bf651f3-b2ba-46e5-9113-90623789244d")
 		)
 		(pin "8"
-			(uuid "381a15e9-1151-4c16-8765-12937c0fb6f3")
+			(uuid "381a15e9-1151-4c16-8765-12937c0fb6f6")
 		)
 		(pin "6"
-			(uuid "7abc3ae4-81b6-47a9-a895-24467e57f28c")
+			(uuid "7abc3ae4-81b6-47a9-a895-24467e57f28f")
 		)
 		(instances
 			(project ""
