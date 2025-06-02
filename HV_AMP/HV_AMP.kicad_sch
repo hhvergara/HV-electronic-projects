@@ -8852,7 +8852,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
+		(property "Value" "1000uF X 25V"
 			(at 105.41 37.2109 0)
 			(effects
 				(font
@@ -9342,7 +9342,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ae457c0d-10f0-4e16-a8b6-9624400d8704")
 		(property "Reference" "C9"
 			(at 72.39 34.6709 0)
@@ -9353,8 +9352,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
-			(at 72.39 37.2109 0)
+		(property "Value" "1000uF X 50V"
+			(at 66.04 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9923,7 +9922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
+		(property "Value" "1000uF X 10V"
 			(at 143.51 28.3209 0)
 			(effects
 				(font
@@ -10117,7 +10116,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d2fbea7c-405f-492e-b260-7a82e832c953")
 		(property "Reference" "C8"
 			(at 72.39 24.5109 0)
@@ -10128,8 +10126,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
-			(at 72.39 27.0509 0)
+		(property "Value" "1000uF X 50V"
+			(at 69.342 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10268,7 +10266,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
+		(property "Value" "1000uF X 25V"
 			(at 105.41 27.0509 0)
 			(effects
 				(font
